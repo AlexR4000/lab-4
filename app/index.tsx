@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import ToDoForm from "../components/ToDoForm";
 import ToDoList from "../components/ToDoList";
 
@@ -35,3 +35,4 @@ const styles = StyleSheet.create({
   title: { fontSize: 24, fontWeight: "bold", textAlign: "center", marginBottom: 20 },
   debug: { padding: 10, backgroundColor: "#f9f9f9", marginBottom: 20 },
 });
+// added debug bar to show current tasks that has been added using the addtask function
